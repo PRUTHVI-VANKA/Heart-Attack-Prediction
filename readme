@@ -1,1 +1,21 @@
 
+
+This Python script performs exploratory data analysis (EDA) on the heart.csv dataset for heart disease prediction.
+
+Key Steps:
+Data Import: Loads the dataset containing 303 patient records and 14 medical features.
+
+Feature Descriptions: Explains column names (e.g., age, sex, chest pain type).
+
+Target Distribution:
+
+Uses sns.countplot to visualize the balance between patients with (46.53%) and without (53.47%) heart problems.
+
+Confirms a roughly balanced dataset (54% healthy vs. 46% at risk).
+
+Insights:
+Helps identify patterns in heart disease risk factors.
+
+Serves as a foundation for building predictive models (e.g., classification).
+
+👉 Run this code before model-building scripts to understand the dataset's structure and class distribution.
